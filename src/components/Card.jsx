@@ -8,6 +8,10 @@ const Card = () => {
 
   const cardPairs = [
     {
+      title: "Welcome!",
+      definition: "Click next to get started"
+    },
+    {
       title: "As-salaam alaikum لسلام عليكم",
       definition: "Peace be upon you"
     },
@@ -50,7 +54,7 @@ const Card = () => {
   ];
   
   const handleClick = () => {
-    setCards(Math.floor(Math.random() * cardPairs.length))
+    setCards(Math.floor((Math.random() * cardPairs.length - 1) + 1))
   }
   
 
