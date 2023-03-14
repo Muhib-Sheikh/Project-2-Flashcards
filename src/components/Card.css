@@ -53,7 +53,7 @@
 button {
   display: block;
   width: 100px; 
-  margin: 20px auto 0; /* added auto margins and adjusted top margin */
+  margin: 20px auto 0;
   padding: 10px 20px;
   font-size: 1.2em;
   font-weight: bold;
@@ -66,4 +66,20 @@ button {
 button:hover {
   background-color: gray;
   cursor: pointer;
+}
+
+.none {
+  border: none
+}
+
+.correct {
+  border-style: solid;
+  border-width: thick;
+  border-color: green;
+}
+
+.incorrect {
+  border-style: solid;
+  border-width: thick;
+  border-color: red;
 }
